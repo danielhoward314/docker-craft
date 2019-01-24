@@ -1,0 +1,32 @@
+email:
+  fromEmail: danielhoward314@gmail.com
+  fromName: danielhoward
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  2aa90b89-c065-4928-892f-268faedfa94c:
+    name: Common
+siteGroups:
+  523cb2fb-a733-4059-a866-7a7772fd1d6d:
+    name: danielhoward
+sites:
+  6592919b-ab1f-405e-8e95-95feb79b405a:
+    baseUrl: 'http://localhost'
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: danielhoward
+    primary: true
+    siteGroup: 523cb2fb-a733-4059-a866-7a7772fd1d6d
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: danielhoward
+  schemaVersion: 3.1.22
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
